@@ -1,0 +1,6 @@
+@call_center_events_HostAddress = http://localhost:5031
+
+GET {{call_center_events_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

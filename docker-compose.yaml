@@ -1,0 +1,49 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: dbuser
+      POSTGRES_PASSWORD: pass1234
+    ports:
+      - "5432:5432"
+    volumes:
+      - db:/var/lib/postgresql/data
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongouser
+      MONGO_INITDB_ROOT_PASSWORD: pass1234
+      MONGO_INITDB_DATABASE: dbuser
+    volumes:
+      - mongo:/data/db
+  call-center-events-server:
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    ports:
+      - 8080:8080
+    image: server-img
+    build:
+      context: .
+      dockerfile: ./Docker/Server.Dockerfile
+    depends_on:
+      - db
+      - mongo
+  call-center-events-ui:
+    ports:
+      - 3000:3000
+    image: ui-img
+    build:
+      context: ./ui/ui-call-center-events
+      dockerfile: ./Docker/ui.Dockerfile
+    depends_on:
+      - call-center-events-server
+volumes:
+  db:
+    driver: local
+  mongo:

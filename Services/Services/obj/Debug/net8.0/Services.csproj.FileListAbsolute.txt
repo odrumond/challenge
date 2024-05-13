@@ -1,0 +1,15 @@
+/Users/drumond/Projects/five9-assessment/Services/Services/bin/Debug/net8.0/Services.deps.json
+/Users/drumond/Projects/five9-assessment/Services/Services/bin/Debug/net8.0/Services.dll
+/Users/drumond/Projects/five9-assessment/Services/Services/bin/Debug/net8.0/Services.pdb
+/Users/drumond/Projects/five9-assessment/Services/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/drumond/Projects/five9-assessment/Services/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache
+/Users/drumond/Projects/five9-assessment/Services/Services/obj/Debug/net8.0/Services.AssemblyInfo.cs
+/Users/drumond/Projects/five9-assessment/Services/Services/obj/Debug/net8.0/Services.csproj.CoreCompileInputs.cache
+/Users/drumond/Projects/five9-assessment/Services/Services/obj/Debug/net8.0/Services.dll
+/Users/drumond/Projects/five9-assessment/Services/Services/obj/Debug/net8.0/refint/Services.dll
+/Users/drumond/Projects/five9-assessment/Services/Services/obj/Debug/net8.0/Services.pdb
+/Users/drumond/Projects/five9-assessment/Services/Services/obj/Debug/net8.0/ref/Services.dll
+/Users/drumond/Projects/five9-assessment/Services/Services/bin/Debug/net8.0/Data.dll
+/Users/drumond/Projects/five9-assessment/Services/Services/bin/Debug/net8.0/Data.pdb
+/Users/drumond/Projects/five9-assessment/Services/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
+/Users/drumond/Projects/five9-assessment/Services/Services/obj/Debug/net8.0/Services.csproj.Up2Date
